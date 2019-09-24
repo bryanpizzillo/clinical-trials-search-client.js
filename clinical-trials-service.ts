@@ -1,4 +1,4 @@
-import { CTAPIConnection, TermResults, InterventionResults, DiseaseResults } from './';
+import { TermResults, InterventionResults, DiseaseResults } from './model';
 
 /**
  * This class represents the methods to accessing a CTAPI service
