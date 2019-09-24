@@ -1,4 +1,4 @@
-import { ClinicalTrialsService } from '.';
+import { ClinicalTrialsService } from './clinical-trials-service';
 import { ClinicalTrialsServiceV1Impl, CTAPIConnectionV1Impl } from './v1'
 
 export class ClinicalTrialsServiceFactory {

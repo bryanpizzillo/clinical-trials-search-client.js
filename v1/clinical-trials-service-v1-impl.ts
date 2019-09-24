@@ -1,4 +1,6 @@
-import { CTAPIConnection, ClinicalTrialsService, TermResults, InterventionResults, DiseaseResults } from '../';
+import {TermResults, InterventionResults, DiseaseResults } from '../model';
+import {CTAPIConnection} from '../ctapi-connection';
+import {ClinicalTrialsService} from '../clinical-trials-service';
 
 /**
  * This class represents the methods to accessing a CTAPI service
