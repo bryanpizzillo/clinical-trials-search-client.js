@@ -29,7 +29,7 @@ export class ClinicalTrialsServiceV1Impl implements ClinicalTrialsService {
      * @param size The number of terms to return. NOTE: API allows max of 100 (DEFAULT: 10)
      * @param from The 0-based offset of where to start fetching terms from. (DEFAULT: 0)
      */
-    getTerms(termType: string, additionalParams = {}, size = 10, from = 0): Promise<TermResults> {
+    getTerms = (termType: string, additionalParams = {}, size = 10, from = 0): Promise<TermResults> => {
 
         //Setup the request
         let params = {
@@ -65,7 +65,7 @@ export class ClinicalTrialsServiceV1Impl implements ClinicalTrialsService {
      * @param sort The sort order of the results (DEFAULT: Name)
      * @param order The direction to sort the results (DEFAULT: asc)
      */    
-    getInterventions(category?: string|string[], name?: string, size = 10 , additionalParams?:any, sort = "name", order = "asc"): Promise<InterventionResults> {
+    getInterventions = (category?: string|string[], name?: string, size = 10 , additionalParams?:any, sort = "name", order = "asc"): Promise<InterventionResults> => {
 
         //Setup the request
         let params = {
@@ -104,7 +104,7 @@ export class ClinicalTrialsServiceV1Impl implements ClinicalTrialsService {
      * @returns {Promise<DiseaseResults>} 
      * @memberof ClinicalTrialsService
      */
-    getDiseases(menuType:string|string[], diseaseAncestorIDs?:string|string[], additionalParams?:any): Promise<DiseaseResults> {
+    getDiseases = (menuType:string|string[], diseaseAncestorIDs?:string|string[], additionalParams?:any): Promise<DiseaseResults> => {
         
         //Setup the request
         let params = {
