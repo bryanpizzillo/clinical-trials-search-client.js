@@ -1,6 +1,12 @@
 {
+<<<<<<< HEAD
   "name": "@nciocpl/clinical-trials-search-client.js",
   "version": "1.0.1",
+=======
+  "name": "clinical-trials-search-client.js",
+  "version": "1.0.0",
+  "description": "",
+>>>>>>> 5067f51849db48c0e6a6d69d064720ad1881163d
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -8,11 +14,15 @@
     "build": "tsc"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/NCIOCPL"
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git://github.com/NCIOCPL/clinical-trials-search-client.js.git"
+=======
+    "url": "git+https://github.com/NCIOCPL/clinical-trials-search-client.js.git"
+>>>>>>> 5067f51849db48c0e6a6d69d064720ad1881163d
   },
   "author": "National Cancer Institute",
   "license": "ISC",
