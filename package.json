@@ -8,11 +8,11 @@
     "build": "tsc"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/NCIOCPL"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/NCIOCPL/clinical-trials-search-client.js.git"
+    "url": "git+https://github.com/NCIOCPL/clinical-trials-search-client.js.git"
   },
   "author": "National Cancer Institute",
   "license": "ISC",
