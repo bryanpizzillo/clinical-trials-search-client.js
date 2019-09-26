@@ -1,11 +1,10 @@
 {
-  "name": "clinical-trials-service",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@nciocpl/clinical-trials-search-client.js",
+  "version": "1.1.4",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "tsc"
   },
   "publishConfig": {
@@ -13,18 +12,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arcepaul/clinical-trials-service.git"
+    "url": "git+https://github.com/NCIOCPL/clinical-trials-search-client.js.git"
   },
   "author": "National Cancer Institute",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arcepaul/clinical-trials-service/issues"
+    "url": "https://github.com/NCIOCPL/clinical-trials-search-client.js/issues"
   },
-  "homepage": "https://github.com/arcepaul/clinical-trials-service#readme",
+  "homepage": "https://github.com/NCIOCPL/clinical-trials-search-client.js.git#readme",
   "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typemoq": "^2.1.0",
     "typescript": "^3.6.3"
   },
   "dependencies": {
     "axios": "^0.19.0"
-  }
+  },
+  "description": ""
 }

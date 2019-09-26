@@ -1,4 +1,4 @@
-import { CDEConfigurationService, CDEConfiguration, CDEDefaultConfiguration } from './';
+import { CDEConfigurationService, CDEConfiguration, CDEDefaultConfiguration } from '.';
 export class CDERuntimeConfig implements CDEConfigurationService {
 
     private defaultConfiguration : CDEConfiguration;

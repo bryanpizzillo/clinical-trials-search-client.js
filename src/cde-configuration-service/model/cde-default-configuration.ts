@@ -1,4 +1,4 @@
-import { CDEConfiguration } from './';
+import { CDEConfiguration } from '.';
 
 /**
  * Class for specifying default values for runtime configuration options.
