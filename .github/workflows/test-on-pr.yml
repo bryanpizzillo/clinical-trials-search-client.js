@@ -1,8 +1,10 @@
 name: Test Package
 
 on: 
+  ## PRs to all branches except master.
   pull_request:
     branches:
+      - '*'
       - '!master'
 
 jobs:
