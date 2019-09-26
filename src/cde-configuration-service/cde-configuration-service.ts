@@ -1,4 +1,4 @@
-import { CDEConfiguration } from './';
+import { CDEConfiguration } from '.';
 
 /**
  * Speicifies an interface for retrieving environment-specific JavaScript configuration values.
