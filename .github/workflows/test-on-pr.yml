@@ -1,11 +1,8 @@
-name: Test Package
+name: Test For Pull Request
 
-on: 
+on: [pull_request]
   ## PRs to all branches except master.
-  pull_request:
-    branches:
-      - '*'
-      - '!master'
+  
 
 jobs:
   build:
