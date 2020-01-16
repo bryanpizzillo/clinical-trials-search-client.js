@@ -1,12 +1,18 @@
-name: Test For Pull Request
-
-## Only run on PRs that are not for master.
-on: 
-  pull_request:
+name: Main workflow
+on:
+  ## This tries to avoid unessesary pushes to forked repo
+  ## development branches. No sense in a dev building every
+  ## time they push for a PR and no one should be working on
+  ## common branches in their fork.
+  push:
     branches:
-      - '*'
-      - '!master'
-
+      - master
+      - develop
+      - 'hotfix/**'
+      - 'release/**'
+      - 'feature/**'
+  ## Any pull request. Yes the syntax looks weird
+  pull_request:
 jobs:
   build:
     runs-on: ubuntu-latest
